@@ -14,7 +14,9 @@
 
 #include <cassert>
 
+#ifdef DEBUG
 static const bool debug_flag = false;
+#endif
 
 namespace Atlas { namespace Message {
 
